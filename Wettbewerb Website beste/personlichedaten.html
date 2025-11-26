@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="persönlichedaten.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+
+        <input type="password" id="password" placeholder="Passwort eingeben">
+
+        <button onclick="checkPassword()">Entsperren</button>
+
+        <p id="error" class="error"></p>
+    </div>
+
+    <div class="data-container">
+        <h2>Persönliche Daten</h2>
+        <div id="private-data" class="blurred">
+            <p><strong>Name:</strong> Oscar Mustermann</p>
+            <p><strong>Alter:</strong> 10</p>
+            <p><strong>Adresse:</strong> Osterdeich 121 28205 Bremen</p>
+            <p><strong>E-mail:</strong> oscar@hesse.de</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <header>
+        <a class="zurück" href="index.html">Zurück zur Startseite</a>
+    </header>
+
+    <script src="persönlichedaten.js"></script>
+</body>
+
+</html>

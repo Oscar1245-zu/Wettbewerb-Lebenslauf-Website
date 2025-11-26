@@ -1,0 +1,118 @@
+.zurück {
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 15px;
+}
+
+.zurück:hover {
+    color: black;
+    padding: 20px;
+    background-color: blue;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(Hintergrund1.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    height: 100%;
+}
+
+.obererbalken {
+    background-image: linear-gradient(red, blue);
+    padding: 20px;
+}
+
+.info-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.info-row .textblock {
+    max-width: 400px;
+}
+
+.profilbild {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.grundlage {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.discord {
+    display: inline-block;
+    color: white;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    background-color: gray;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+a.discord:hover {
+    background-color: dimgray;
+}
+
+a.startseite {
+    display: inline-block;
+    color: white;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    background-color: gray;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+a.startseite:hover {
+    background-color: dimgray;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 12px 22px;
+    background: #818081;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.download-btn:hover {
+    background: #252525;
+}
